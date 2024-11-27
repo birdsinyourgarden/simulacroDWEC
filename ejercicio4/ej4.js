@@ -13,5 +13,5 @@ y muestra el área en la consola. */ // Nota: para el número PI utiliza Math.PI
 /* Ejercicio 4.3: Herencia de Clases
 Extiende la clase Circle para crear una clase 
 Cylinder que también tenga una propiedad height y un método para calcular 
-el volumen (usa la fórmula volumen = área base * altura). 
+el volumen (usa la fórmula volumen = área de la base * altura). 
 Crea una instancia de Cylinder y muestra su volumen. */
