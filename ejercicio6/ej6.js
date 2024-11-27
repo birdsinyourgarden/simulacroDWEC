@@ -14,20 +14,20 @@
 
 //Tenemos que crear una función que nos pasa una cadena de texto con símbolos y tenemos que transformarlo al número correcto. ¡Ojo! Si encuentras un símbolo que no entendemos, mejor que devolvamos un NaN:
 
-export default function decodeNumber(symbols) {
+function decodeNumber(symbols) {
   // Tu solución aquí 
    return false
  }
 
- console.log(decodeNumbers('...'));       // 3
- console.log(decodeNumbers('.,'));        // 4
- console.log(decodeNumbers(',.'));        // 6
- console.log(decodeNumbers(',...'));      // 8
- console.log(decodeNumbers('.........!'));// 107
- console.log(decodeNumbers('.;'));        // 49
- console.log(decodeNumbers('..,'));       // 5
- console.log(decodeNumbers('..,!'));      // 95
- console.log(decodeNumbers('.;!'));       // 49
- console.log(decodeNumbers('!!!'));       // 300
- console.log(decodeNumbers(';!'));        // 50
- console.log(decodeNumbers(';.W'));       // NaN
+ console.log(decodeNumber('...'));       // 3
+ console.log(decodeNumber('.,'));        // 4
+ console.log(decodeNumber(',.'));        // 6
+ console.log(decodeNumber(',...'));      // 8
+ console.log(decodeNumber('.........!'));// 107
+ console.log(decodeNumber('.;'));        // 49
+ console.log(decodeNumber('..,'));       // 5
+ console.log(decodeNumber('..,!'));      // 95
+ console.log(decodeNumber('.;!'));       // 49
+ console.log(decodeNumber('!!!'));       // 300
+ console.log(decodeNumber(';!'));        // 50
+ console.log(decodeNumber(';.W'));       // NaN

@@ -3,8 +3,15 @@
 // Vamos a crear una función que pasándole un array de regalos, nos devuelva otro array pero donde todos los regalos han sido envueltos con asteriscos tanto por arriba como por los lados.
 
 function wrapGifts(gifts) {
-    // Tu solución aquí
-    return []
+    if (gifts.length === 0) return [];
+
+    const maxLength = Math.max(...gifts.map(gift => gift.length));
+
+    const border = '*'.repeat(maxLength + 2);
+
+    const wrappedGifts = gifts.map(gift => `*${gift}*`);
+
+    return [border, ...wrappedGifts, border];
   }
   
 // Sólo tienes que tener en cuenta unas cosillas ✌️:
